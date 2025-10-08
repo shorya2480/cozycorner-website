@@ -28,5 +28,3 @@ npm run preview
 - Pages in `src/pages`
 - Components in `src/components`
 
-## Contact Form
-- Removed as requested. If re-adding later, configure EmailJS env vars in `.env`.
