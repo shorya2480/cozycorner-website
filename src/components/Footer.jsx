@@ -1,4 +1,4 @@
-import { Instagram, Facebook } from 'lucide-react'
+import { Instagram, MapPin } from 'lucide-react'
 
 export default function Footer() {
   return (
@@ -14,8 +14,8 @@ export default function Footer() {
           <p className="text-sm text-text/70 mt-2">Opening Hours: 5:00 PM – 10:30 PM</p>
         </div>
         <div className="flex items-start md:justify-end gap-3">
-          <a href="#" aria-label="Instagram" className="p-2 rounded-full hover:bg-accent/10 text-accent transition-colors"><Instagram /></a>
-          <a href="#" aria-label="Facebook" className="p-2 rounded-full hover:bg-accent/10 text-accent transition-colors"><Facebook /></a>
+          <a href="https://www.instagram.com/cozy_cornercafe99?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" aria-label="Instagram" className="p-2 rounded-full hover:bg-accent/10 text-accent transition-colors"><Instagram /></a>
+          <a href="https://maps.app.goo.gl/7J6UZWXbSDhEjvtW6" target="_blank" rel="noopener noreferrer" aria-label="Google Maps" className="p-2 rounded-full hover:bg-accent/10 text-accent transition-colors"><MapPin /></a>
         </div>
       </div>
       <div className="text-center text-xs text-text/60 pb-6">© {new Date().getFullYear()} Cozy Corner. All rights reserved.</div>
