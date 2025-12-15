@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 export default function Section({ id, className = '', children }) {
   return (
-    <section id={id} className={`py-14 ${className}`}>
+    <section id={id} className={`py-8 sm:py-12 md:py-14 ${className}`}>
       <motion.div
         initial={{ opacity: 0, y: 16 }}
         whileInView={{ opacity: 1, y: 0 }}
